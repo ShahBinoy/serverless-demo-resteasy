@@ -1,5 +1,4 @@
 :toc: macro 
-
 toc::[] 
 
 = Demonstrating Serverless using RestEasy (H1)
