@@ -1,10 +1,10 @@
-= Demonstrating Serverless using RestEasy (H1)
-This project uses Quarkus, the Supersonic Subatomic Java Framework.
-If you want to learn more about Quarkus, please visit its website: https://quarkus.io/ .
-
 :toc: macro 
 
 toc::[] 
+
+= Demonstrating Serverless using RestEasy (H1)
+This project uses Quarkus, the Supersonic Subatomic Java Framework.
+If you want to learn more about Quarkus, please visit its website: https://quarkus.io/ .
 
 = Steps and details
 
@@ -23,10 +23,11 @@ Be aware that it’s not an _über-jar_ as the dependencies are copied into the 
 
 The application is now runnable using `java -jar target/serverless-demo-1.0.0-SNAPSHOT-runner.jar`.
 
-== Creating a native executable
+== Creating an executable
 
+=== Native executable
 You can create a native executable using: `./mvnw package -Pnative`.
 
+=== Docker executable
 Or you can use Docker to build the native executable using: `./mvnw package -Pnative -Dquarkus.native.container-build=true`.
-
 You can then execute your binary: `./target/serverless-demo-1.0.0-SNAPSHOT-runner`
