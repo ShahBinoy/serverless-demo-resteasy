@@ -1,2 +1,4 @@
 :toc:
 Commit master
+
+Direct Commit to Dev or Other branch merge
