@@ -5,3 +5,5 @@ Commit master
 Feature 1 change 1
 
 Feature 1 Change 2
+
+Feature 1 Change 3
